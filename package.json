@@ -1,0 +1,27 @@
+{
+  "name": "react-macro-ui-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sackrin/react-macro-ui-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sackrin/react-macro-ui-example/issues"
+  },
+  "homepage": "https://github.com/sackrin/react-macro-ui-example#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-micro-ui": "file:../react-micro-ui"
+  }
+}

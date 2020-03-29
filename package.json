@@ -22,6 +22,9 @@
     "next": "^9.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-micro-ui": "file:../react-micro-ui"
+    "@sackrin/react-micro-ui-hooks": "^0.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2"
   }
 }

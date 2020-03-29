@@ -1,11 +1,11 @@
 import react from 'react';
-import useMicroUI from "react-micro-ui/lib/Hooks/useMicroUI";
+import { MicroUIComponent } from "@sackrin/react-micro-ui-hooks/lib/Components";
 
-export default function Index() {
-	const [render, loaded] = useMicroUI('http://localhost:9000', 'exampleMicroUI', {});
-	return (
-		<div>
-			<p>Hello Next.js</p>
-		</div>
-	);s
-}
+const Index = () => (
+	<div>
+		<p>Hello Next.js</p>
+		{process.browser && <MicroUIComponent microUi={{ url: 'http://localhost:9000', library: 'exampleMicroUI' , name: "ExampleComponent" }} name="John" />}
+	</div>
+);
+
+export default Index;
